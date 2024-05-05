@@ -1,0 +1,169 @@
+* {
+    margin:0%;
+    padding:0;
+}
+
+header {
+    background-color: #FF6200;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+
+#cabecalho {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+}
+
+#logo1 {
+    margin: 2%;
+}
+
+#titulo-cabecalho {
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+#logo2 {
+    margin: 2%;
+}
+
+img {
+    width: 30px;
+}
+
+#conteudo {
+    margin: 2%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1441px) {
+    #conteudo {
+        width: 40% !important;
+        margin-left: 30%;
+    }
+}
+#titulo-conteudo h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#subtitulo-conteudo {
+     margin-top: 2%;
+}
+#subtitulo-conteudo p {
+    font-size: 14px;
+}
+
+#caixa-dialogo {
+    width: 100%;
+}
+textarea {
+    width: calc(100% - 4%);
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+
+textarea::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px !important;
+}
+
+#botao-gerar {
+    margin-top: 1%;
+    width: 10em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border-style: none;
+    height: 2em;
+    font-style: bold;
+    font-size: 14px;
+    background-color: #FF6200;
+    color: white;
+}
+
+#botao-gerar:hover {
+    background-color: #D35100;
+    transition: all 0.5s;
+    transition-delay: 0.05s;
+}
+
+footer {
+    background-color: #FF6200;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#rodape {
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+#rodape-textos {
+    text-align: center;
+    width: 100%;
+}
+
+#rodape-resp {
+    font-size: 10px;
+}
+
+#icone-rodape-itau {
+    margin: 2%;
+}
+
+#icone-rodape-mkt{
+    margin: 2%;
+}
+
+#resultado {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: left; 
+    width: 107%;
+}
+a {
+    color: black;
+}
+.resultado-lista {
+    padding: 0;
+}
+
+
+
+.resultado-lista li {
+    margin: 5px 0;
+}
+
+
+
+.resultado-nao-encontrado {
+    margin-top: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
